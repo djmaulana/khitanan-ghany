@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react'
 import { Montserrat, Dancing_Script } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
