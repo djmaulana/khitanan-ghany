@@ -19,6 +19,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/node": "^20.11.30",
     "@types/react": "18.2.67",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
