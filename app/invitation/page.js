@@ -19,7 +19,7 @@ const images = [
   '/p6.jpg',
 ]
 
-const page = () => { 
+const Page = () => { 
   
   const handleClick = () => {
     alert("Pesan terkirim")
@@ -151,4 +151,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

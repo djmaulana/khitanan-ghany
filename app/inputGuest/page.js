@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
 
-const page = () => {
-    const [namaTamu, setNamaTamu] = useState('');
+const Page = () => {
+  const [namaTamu, setNamaTamu] = useState('');
   const [invitationLink, setInvitationLink] = useState('');
 
   const handleGenerateLink = () => {
@@ -67,4 +67,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
