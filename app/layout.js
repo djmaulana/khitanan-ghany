@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { Suspense } from "react";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -15,7 +16,9 @@ export default function RootLayout({ children }) {
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <body className={inter.className}>{children}</body>
+      <Suspense>
+        <body className={inter.className}>{children}</body>
+      </Suspense>
     </html>
   );
 }
