@@ -75,7 +75,8 @@ const Page = () => {
             <h1 className='text-[22px]'>Hari & Tempat</h1>
             <hr className='w-1/2 mx-auto mt-3 border-[#dddddd] opacity-50'/>
             <p className={mq.className} style={{fontSize: "12px", marginTop: "12px"}}>
-              Sabtu, 13 April 2024 - Selesai
+                08.00 - Selesai <br />
+                Sabtu, 13 April 2024 
             </p>
             <p className='mt-5 text-[20px]'>Rumah Ghany</p>
             <p className={mq.className} style={{fontSize: "10px", marginTop: "12px"}}>
